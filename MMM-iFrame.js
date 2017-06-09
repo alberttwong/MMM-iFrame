@@ -12,7 +12,8 @@ Module.register("iFrame",{
 		defaults: {
 				height:"300px",
 				width:"100%",
-                                updateInterval: 0.5 * 60 * 1000
+                                updateInterval: 0.5 * 60 * 1000,
+                                url: ["http://magicmirror.builders/"]
 		},
 
         start: function () {
@@ -32,12 +33,6 @@ Module.register("iFrame",{
 		iframe.width = this.config.width;
 		iframe.height = this.config.height;
                 iframe.src = this.config.url[this.getRandomInt(0,this.config.url.length)];
-                /*
-		if ( this.getRandomInt(0,this.config.url.length) )
-                   iframe.src =  this.config.url[0];
-                else
-                   iframe.src = "http://github.com/MichMich/MagicMirror";
-                */
                 console.log(iframe.src);
 		return iframe;
 	}
