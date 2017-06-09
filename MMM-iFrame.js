@@ -7,7 +7,7 @@
  * MIT Licensed.
  */
 
-Module.register("iFrame",{
+Module.register("MMM-iFrame",{
 		// Default module config.
 		defaults: {
 				height:"300px",
