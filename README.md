@@ -40,7 +40,7 @@ The following properties can be configured:
 		<tr>
 			<td><code>updateInterval</code></td>
 			<td>the update internal for the iFrame<br>
-				<br><b>Example:</b><code>0.5 * 60 * 1000</code>
+				<br><b>Example for 30 seconds:</b><code>0.5 * 60 * 1000</code>
 				<br><b>Default value:</b> <code>"0.5 * 60 * 1000"</code>
 			</td>
 		</tr>		
