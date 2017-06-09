@@ -24,7 +24,7 @@ Module.register("MMM-iFrame",{
                          }, this.config.updateInterval);
 	},
   getRandomInt: function (min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min)) + min;
   },
         // Override dom generator.
 	getDom: function() {
@@ -32,8 +32,10 @@ Module.register("MMM-iFrame",{
 		iframe.style = "border:0"
 		iframe.width = this.config.width;
 		iframe.height = this.config.height;
-                iframe.src = this.config.url[this.getRandomInt(0,this.config.url.length)];
-                console.log(iframe.src);
+                var url_index = this.getRandomInt(0,this.config.url.length);
+                console.log("URL length:" + this.config.url.length + " " + "URL index:" + url_index);
+                iframe.src = this.config.url[url_index];
+                console.log("url:" + iframe.src);
 		return iframe;
 	}
 
