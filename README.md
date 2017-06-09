@@ -1,17 +1,18 @@
 # Module: iFrame
-The `iFrame` module is for MagicMirror. It is a simple way to add an iFrame of any web content to your [MagicMirror](https://github.com/MichMich/MagicMirror).
+The `MMM-iFrame` module is for MagicMirror. It is a simple way to add an iFrame of any web content to your [MagicMirror](https://github.com/MichMich/MagicMirror).
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: 'iFrame',
+		module: 'MMM-iFrame',
 		position: 'bottom_bar',	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
-				url: "ENTER IN URL"
-				width: "100%" // Optional. Default: 100%
+				url: ["ENTER IN URL", "ENTER IN URL2"],  // as many URLs you want or youc an just ["ENTER IN URL"] if single URL.
+				updateInterval: 0.5 * 60 * 1000 // rotate URLs every 30 seconds
+				width: "100%", // Optional. Default: 100%
 				height: "100px" //Optional. Default: 100px
 			}
 		}
