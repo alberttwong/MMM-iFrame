@@ -1,4 +1,4 @@
-# Module: iFrame
+# Module: MMM-iFrame
 The `MMM-iFrame` module is for MagicMirror. It is a simple way to add an iFrame of any web content to your [MagicMirror](https://github.com/MichMich/MagicMirror).
 ## Using the module
 
