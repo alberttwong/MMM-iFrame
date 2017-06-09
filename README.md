@@ -34,7 +34,7 @@ The following properties can be configured:
 			<td><code>url</code></td>
 			<td>the URL(s) in the iFrame<br>
 				<br><b>Example:</b><code>["http://example.com/", "http://example2.com", "http://example3.com"]</code>
-				<br><b>Default value:</b> <code>"http://magicmirror.builders/"</code>
+				<br><b>Default value:</b> <code>["http://magicmirror.builders/"]</code>
 			</td>
 		</tr>
 		<tr>
