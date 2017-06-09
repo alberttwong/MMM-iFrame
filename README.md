@@ -11,7 +11,7 @@ modules: [
 		config: {
 			// See 'Configuration options' for more information.
 				url: ["ENTER IN URL", "ENTER IN URL2"],  // as many URLs you want or you can just ["ENTER IN URL"] if single URL.
-				updateInterval: 0.5 * 60 * 1000 // rotate URLs every 30 seconds
+				updateInterval: 0.5 * 60 * 1000, // rotate URLs every 30 seconds
 				width: "100%", // Optional. Default: 100%
 				height: "100px" //Optional. Default: 100px
 			}
