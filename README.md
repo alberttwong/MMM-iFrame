@@ -10,7 +10,7 @@ modules: [
 		position: 'bottom_bar',	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
-				url: ["ENTER IN URL", "ENTER IN URL2"],  // as many URLs you want or youc an just ["ENTER IN URL"] if single URL.
+				url: ["ENTER IN URL", "ENTER IN URL2"],  // as many URLs you want or you can just ["ENTER IN URL"] if single URL.
 				updateInterval: 0.5 * 60 * 1000 // rotate URLs every 30 seconds
 				width: "100%", // Optional. Default: 100%
 				height: "100px" //Optional. Default: 100px
@@ -32,11 +32,18 @@ The following properties can be configured:
 		</tr>
 		<tr>
 			<td><code>url</code></td>
-			<td>the URL in the iFrame<br>
-				<br><b>Example:</b><code>"http:http://example.com/" </code>
-				<br><b>Default value:</b> <code>''</code>
+			<td>the URL(s) in the iFrame<br>
+				<br><b>Example:</b><code>["http://example.com/", "http://example2.com", "http://example3.com"]</code>
+				<br><b>Default value:</b> <code>"http://magicmirror.builders/"</code>
 			</td>
 		</tr>
+		<tr>
+			<td><code>updateInterval</code></td>
+			<td>the update internal for the iFrame<br>
+				<br><b>Example:</b><code>0.5 * 60 * 1000</code>
+				<br><b>Default value:</b> <code>"0.5 * 60 * 1000"</code>
+			</td>
+		</tr>		
 		<tr>
 			<td><code>width</code></td>
 			<td>the width of the iFrame<br>
