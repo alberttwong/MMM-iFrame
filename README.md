@@ -12,6 +12,9 @@ D-Link cameras streams can be easily embedded into an iFrame.  Some cameras requ
 ### Twitch.tv streaming
 Just go to the channel you want and click on share and cut and paste the embed src URL (eg. https://player.twitch.tv/?channel=feedbias_int). For more info, check out https://dev.twitch.tv/docs/v5/guides/embed-video/
 
+### Youtube streaming
+Just got to the video you want. Click share and embed and pull out the url and add the autoplay parameter (eg.   https://www.youtube.com/embed/yw_nqzVfxFQ?autoplay=1).  
+
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js` file:
