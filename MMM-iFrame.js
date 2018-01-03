@@ -54,6 +54,7 @@ resume: function() {
                                         src="${this.config.url[this.getRandomInt(0, this.config.url.length)]}"
                                         width="${width}"
                                         height="${height}"
+                                        scrolling="${this.config.scrolling}"
                                 ></iframe>
                         </div>
                 `;
