@@ -20,7 +20,7 @@ Module.register("MMM-iFrame",{
         start: function () {
                 self = this;
                 var count = 0;
-                if (this.config.url.length > 1 ) {
+                if (this.config.url.length > 0 ) {
                       setInterval( function () { 
                          self.updateDom(1000);
                          console.log('update' + count++)
