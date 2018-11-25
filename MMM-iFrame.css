@@ -1,0 +1,16 @@
+.mmm-iframe-wrapper {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.mmm-iframe-wrapper > iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  vertical-align: middle;
+  width: 100%;
+}
