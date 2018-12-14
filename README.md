@@ -79,4 +79,4 @@ The following properties can be configured:
 </table>
 
 ## This is an open source project
-That means you have the code to fix issues.    If you'd like issues to be fixed, please sponsor it using https://issuehunt.io/repos/93804431
+That means you have the code to fix issues and that the code, this module, is unsupported.    If you'd like issues to be fixed, please sponsor fixes using https://issuehunt.io/repos/93804431
