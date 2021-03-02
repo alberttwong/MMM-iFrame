@@ -44,14 +44,15 @@ resume: function() {
 	getDom: function() {
                 var { width, height } = this.config;
                 var wrapper = document.createElement("div");
-                
+                var getTimeStamp = new Date().getTime();
                 wrapper.className = "mmm-iframe"
                 wrapper.style.width = `${this.config.frameWidth}px`;
+               var src = this.config.url[this.getRandomInt(0, this.config.url.length)]+"?"+getTimeStamp; 
 
                 var html = `
                         <div class="mmm-iframe-wrapper" style="padding-top: ${100 / (width / height)}%;">
                                 <iframe
-                                        src="${this.config.url[this.getRandomInt(0, this.config.url.length)]}"
+                                        src="${src}"
                                         width="${width}"
                                         height="${height}"
                                         scrolling="${this.config.scrolling}"
