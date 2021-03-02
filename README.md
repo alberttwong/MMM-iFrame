@@ -1,3 +1,7 @@
+ [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R31NMRD)
+ 
+# NOTE: THIS MAY NOT WORK WITH THE LATEST MAGICMIRRIOR CODE.   This is an open source project.  That means you have the code to fix issues and that the code, this module, is unsupported.  
+
 # Module: MMM-iFrame
 The `MMM-iFrame` module is for MagicMirror. It is a simple way to add an iFrame of any web content to your [MagicMirror](https://github.com/MichMich/MagicMirror).  Please note that not all websites support being in a iFrame.
 
